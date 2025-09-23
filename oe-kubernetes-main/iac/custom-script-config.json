@@ -1,4 +1,0 @@
-{
-    "fileUris": ["https://raw.githubusercontent.com/pzsolt72/oe-kubernetes/main/iac/install-dependencies.sh"],
-    "commandToExecute": "./install-dependencies.sh"
-  }
