@@ -14,7 +14,7 @@ book_database = [
     "pages": 328
   },
   {
-    "title": "The Great Gatsby",
+    "title": "The Great Gatsby 2",
     "author": "F. Scott Fitzgerald",
     "publish_date": "1925-04-10",
     "pages": 181
