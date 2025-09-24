@@ -3,7 +3,7 @@ name: Release Docker Image
 on:
   push:
     tags:
-      - 'v*.*.*'   # only run on semver tags like v1.2.3
+      - 'v*.*.*'
 
 env:
   IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/bookservice_fromgithub
@@ -54,5 +54,5 @@ jobs:
           file: ./application/Dockerfile
           push: true
           tags: |
-            ${{ env.IMAGE_NAME }}:${{ env.VERSION }}   # e.g. 1.2.3
+            ${{ env.IMAGE_NAME }}:${{ env.VERSION }}
             ${{ env.IMAGE_NAME }}:latest
